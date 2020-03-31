@@ -1,0 +1,100 @@
+* {
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #efeef3; /* ココロソマリ */
+  /* PUG: #32d4ff */
+  /* Music Clip Box: #2fbbdf*/
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin-top: 0.8em;
+  font-weight: normal;
+  font-family: monospace;
+}
+
+body {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+a {
+  color: inherit;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.divider::after {
+  content: "　|　";
+}
+
+.lyric {
+  font-family: monospace;
+  text-decoration: none;
+  margin-top: 0.8em;
+}
+
+.lyric pre {
+  margin: 0px;
+}
+
+.delete {
+  text-decoration: line-through underline;
+}
+
+.ingress {
+  color: #0078b5;
+}
+
+.bba {
+  color: #f1becb;
+}
+
+.kana {
+  color: #f5ad3b;
+}
+
+.inorin {
+  color: #2fbbdf;
+}
+
+.miriraji {
+  color: #3960ad;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#desc {
+  text-align: center;
+  font-family: monospace;
+}
+
+#links {
+  display: flex;
+}
